@@ -1,54 +1,57 @@
-# React + TypeScript + Vite
+# 🛍️ Shopcial - E-Commerce y Social
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido a **Shopcial**, un E-Commerce con una experiencia similar a una red social, donde los usuarios pueden descubrir, interactuar y comprar productos de manera intuitiva y personalizada.
 
-Currently, two official plugins are available:
+Shopcial nace de unir la experiencia de un E-Commerce normal junto con la experiencia que nos brindan
+las redes sociales, en esta el usuario podra descubrir, interactuar y comprar productos según sus intereses y recomendaciones.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Cabe recalcar de que el mismo es un proyecto para profundizar y poner a prueba y en practica
+  cada uno de mis conocimientos adquiridos.
+-
 
-## Expanding the ESLint configuration
+## 🚀 Características
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🔥 **Feed Personalizado**: Descubre productos según tus intereses.
+- ❤️ **Interacciones Sociales**: Dale "me gusta", guarda y comparte productos.
+- 🛒 **Carrito de Compras Inteligente**: Agrega productos y recibe recomendaciones.
+- 🎨 **Diseño Único**: Navega con una interfaz fluida y moderna.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🏗️ Tecnologías Utilizadas
+
+- ⚛️ **React** + React Router
+- 🎨 **TailwindCSS**
+- ⌨️ **TypeScript**
+- 🌐 **NodeJS y Express** Servidor
+
+## 📂 Estructura del Proyecto
+
+```
+/src
+├── /assets # Imágenes y recursos
+├── /components # Componentes reutilizables
+├── /layouts # Navbar, Footer, Sidebar
+├── /pages # Páginas principales
+├── /routes # Configuración de rutas
+├── /context # Manejo de estado global
+├── /services # Peticiones a APIs
+├── /types # Definiciones de TypeScript
+├── /utils # Funciones auxiliares
+└── App.tsx # Componente principal
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📦 Instalación
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```sh
+git clone https://github.com/tuusuario/shopcial.git
+cd shopcial
+npm install
+npm run dev
 ```
+
+## 🛠️ Contribución
+
+Si quieres mejorar Shopcial, ¡estamos abiertos a PRs! Asegúrate de seguir las convenciones del proyecto.
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia MIT.
