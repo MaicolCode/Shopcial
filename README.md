@@ -5,9 +5,8 @@ Bienvenido a **Shopcial**, un E-Commerce con una experiencia similar a una red s
 Shopcial nace de unir la experiencia de un E-Commerce normal junto con la experiencia que nos brindan
 las redes sociales, en esta el usuario podra descubrir, interactuar y comprar productos según sus intereses y recomendaciones.
 
-- Cabe recalcar de que el mismo es un proyecto para profundizar y poner a prueba y en practica
-  cada uno de mis conocimientos adquiridos.
--
+_Cabe recalcar de que el mismo es un proyecto para profundizar y poner a prueba y en practica
+cada uno de mis conocimientos adquiridos._
 
 ## 🚀 Características
 
